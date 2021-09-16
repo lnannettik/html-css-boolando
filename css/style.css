@@ -1,0 +1,50 @@
+/* RESET SETUP */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* BODY SETUP */
+.container {
+    height: 600px;
+    width: auto;
+    background-color: #0f4c5c;
+    position: relative;
+}
+
+.fig {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.uno {
+    background-color: #e36414;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+
+
+}
+
+.due {
+    background-color: #FB8B24;
+    top: 0;
+    right: 0;
+}
+
+.tre {
+    background-color: #9a031e;
+    bottom: 0;
+    right: 0;
+}
+
+.quattro {
+    background-color: #5f0f40;
+    bottom: 40px;
+    right: 40px;
+    z-index: 2;
+
+}
